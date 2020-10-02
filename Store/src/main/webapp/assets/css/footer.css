@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+#footer .copyright {
+  color: #9fa3a6;
+  font-size: 0.9em; }
+  #footer .copyright a {
+    color: inherit; }

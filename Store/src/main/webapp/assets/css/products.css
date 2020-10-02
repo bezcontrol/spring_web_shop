@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+
+.column-content {
+    display: inline-flex;
+}
+
+.top-search-menu {
+    margin: 0 0 2em 0;
+}
+
+.top-search-form {
+    display: inline-flex;
+    width: 100%;
+}
+
+.left-search-menu {
+    margin-right: 3em;
+    background-color: #eff1f2;
+    padding: 1em;
+    height: fit-content;
+}
+
+.search-criteria {
+    margin-bottom: 2em;
+}
+
+#items-per-page {
+    width: 20%;
+}
+
+#items-order {
+    width: 30%;
+    margin-left: auto;
+}
+
+.checkbox-search {
+    display: block;
+}
+
+.search-slider {
+    display: flex;
+}
+
+#lower-price {
+    width: 5em;
+}
+
+#upper-price {
+    margin-left: auto;
+    width: 5em;
+}
+
+.enumeration-paragraph {
+    margin: 0 0 0 0;
+    display: inline-block;
+}
+
+#products-not-found {
+    margin: 0 0 6em 6em;
+}
+
+@media screen and (max-width: 736px) {
+    .column-content {
+        display: block;
+    }
+
+    .left-search-menu {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #items-order {
+        width: 45%;
+    }
+
+    #items-per-page {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .column-content {
+        display: inline-flex;
+    }
+
+    .left-search-menu {
+        width: 25%;
+        margin-right: 5em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .column-content {
+        display: block;
+    }
+
+    .left-search-menu {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #items-order {
+        width: 45%;
+    }
+
+    #items-per-page {
+        width: 50%;
+    }
+}
+
